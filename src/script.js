@@ -28,7 +28,7 @@ function setup()
 
 	SetupGame()
 
-	createCanvas(windowWidth, windowHeight - 8)
+	createCanvas(720, 640)
 }
 
 function draw()
