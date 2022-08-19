@@ -1,0 +1,10 @@
+* {
+    margin: 0 auto;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+
+    background: #000;
+}
