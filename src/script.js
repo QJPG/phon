@@ -1,6 +1,6 @@
 var Game = {}
 
-function SETUP_Game()
+function SetupGame()
 {
 	//setip game object
 
@@ -13,6 +13,8 @@ function SETUP_Game()
 
 	Game.estate = Game.ESTATE_SPLASH
 	Game.framesPerSecs = 128.0
+
+	frameRate(Game.framesPerSecs)
 }
 
 function preload()
@@ -24,9 +26,9 @@ function setup()
 {
 	//setup func
 
-	SETUP_Game()
+	SetupGame()
 
-	createCanvas(windowWidth, windowHeight)
+	createCanvas(windowWidth, windowHeight - 8)
 }
 
 function draw()
